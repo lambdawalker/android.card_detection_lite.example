@@ -1,0 +1,9 @@
+[versions]
+carddetectionlite = "..."
+sentinel = "..."
+permissioncompose = "..."
+
+[libraries]
+af-cdl-core = { module = "com.apexfission.android.carddetectionlite:core", version.ref = "carddetectionlite" }
+af-cdl-sentinel = { module = "com.apexfission.android.carddetectionlite:sentinel-card-model", version.ref = "sentinel" }
+af-permission-compose = { module = "com.apexfission.android.permissionscompose:core", version.ref = "permissioncompose" }

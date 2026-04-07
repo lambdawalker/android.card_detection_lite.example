@@ -1,23 +1,22 @@
 [versions]
 agp = "9.0.1"
 
-coreKtx = "1.17.0"
+coreKtx = "1.18.0"
 junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.10.0"
-activityCompose = "1.12.4"
-kotlin = "2.0.21"
-composeBom = "2024.09.00"
+activityCompose = "1.13.0"
+kotlin = "2.3.20"
+composeBom = "2026.03.01"
 
 carddetectionlite = "0.1.0-B2"
-tfmodel = "0.1.0-B2"
+sentinel = "TFY11640F16-0.1.0-B2"
 permissioncompose = "0.0.1-B0"
-
 
 [libraries]
 af-cdl-core = { module = "com.apexfission.android.carddetectionlite:core", version.ref = "carddetectionlite" }
-af-cdl-sentinel = { module = "com.apexfission.android.carddetectionlite:sentinel-card-model-TFY11640F16", version.ref = "tfmodel" }
+af-cdl-sentinel = { module = "com.apexfission.android.carddetectionlite:sentinel-card-model", version.ref = "sentinel" }
 af-permission-compose = { module = "com.apexfission.android.permissionscompose:core", version.ref = "permissioncompose" }
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
