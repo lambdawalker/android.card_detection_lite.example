@@ -65,6 +65,15 @@ dependencies {
 }
 ```
 
+### manifest.xml
+
+
+```xml
+
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-feature android:name="android.hardware.camera" />
+```
+
 ## Building and Running
 
 1.  Clone this repository.
